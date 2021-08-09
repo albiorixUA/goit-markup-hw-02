@@ -1,0 +1,110 @@
+:root {
+  --main-color: #ececec;
+  --secondary-color: #212121;
+  --third-color: #2196f3;
+  --fourth-color: #757575;
+  --fifth-color: #ffffff;
+  --sixth-color: #000000;
+  --seventh-color: rgba(255, 255, 255, 0.6);
+  --eight-color: #f5f4fa;
+  --fill: #2f303a;
+}
+/* Головний колір сторінки */
+body {
+  background-color: var(--main-color);
+}
+/* Відключення символу списку  */
+ul {
+  list-style: none;
+}
+/* Ефект поточної сторінки */
+.site-nav .link.current {
+  color: var(--third-color);
+}
+/* Секція хедер */
+.logo-header {
+  color: var(--sixth-color);
+}
+.logo-header .web {
+  color: var(--third-color);
+}
+.site-nav .link {
+  color: var(--secondary-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--third-color);
+}
+/* Стилізація фрагменту емейл и телефон */
+.main-addres .mail,
+.main-addres .tel {
+  color: var(--fourth-color);
+}
+/* Ефект ховера і фокуса в посилання на адреси (секції хедер і футер*/
+.main-addres .mail:hover,
+.main-addres .mail:focus,
+.main-addres .tel:hover,
+.main-addres .tel:focus,
+.footer .mail:hover,
+.footer .mail:focus,
+.footer .tel:hover,
+.footer .tel:focus {
+  color: var(--third-color);
+}
+/* Відключення підкреслення у посиланнях */
+a {
+  text-decoration: none;
+}
+/* Секція герой */
+.hero {
+  background-color: var(--fill);
+}
+.hero .title {
+  color: var(--fifth-color);
+}
+/* Кнопки*/
+.button {
+  color: var(--sixth-color);
+  background-color: var(--fifth-color);
+}
+.button.studya {
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+}
+.button.portfolio {
+  background-color: var(--eight-color);
+  color: var(--secondary-color);
+}
+.button.portfolio:hover {
+  background-color: var(--third-color);
+  color: var(--fifth-color);
+}
+
+/* Секції "Особливості", "Чем мы занимаемся", "Наша команда"*/
+.work-list .title,
+.we-do,
+.team .title,
+.all-list .title {
+  color: var(--secondary-color);
+}
+.work-list .description,
+.team .description,
+.all-list .description {
+  color: var(--fourth-color);
+}
+/* Футер */
+.footer-main .web {
+  color: var(--third-color);
+}
+
+.footer-main .logo,
+.footer .addres {
+  color: var(--fifth-color);
+}
+.footer .mail,
+.footer .tel {
+  color: var(--seventh-color);
+}
+.footer-main {
+  background-color: var(--fill);
+}

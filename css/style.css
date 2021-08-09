@@ -1,5 +1,5 @@
 :root {
-  --main-color: #ececec;
+  --first-color: #ececec;
   --secondary-color: #212121;
   --third-color: #2196f3;
   --fourth-color: #757575;
@@ -11,7 +11,17 @@
 }
 /* Головний колір сторінки */
 body {
-  background-color: var(--main-color);
+  background-color: var(--first-color);
+}
+.main-color {
+  background-color: var(--fifth-color);
+}
+.work-list,
+.wedo {
+  background-color: var(--fifth-color);
+}
+.team {
+  background-color: var(--eight-color);
 }
 /* Відключення символу списку  */
 ul {

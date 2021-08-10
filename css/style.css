@@ -31,7 +31,7 @@ ul {
 .main-addres {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 /* Секція хедер */
@@ -40,7 +40,7 @@ ul {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .header-section .web {
@@ -82,7 +82,7 @@ a {
   color: var(--main-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -100,7 +100,7 @@ a {
   color: var(--main-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -109,7 +109,7 @@ a {
   color: var(--secondary-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -123,7 +123,7 @@ a {
 .work-list .title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -131,21 +131,21 @@ a {
 .team-section .name {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-section .title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-section .description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -159,7 +159,7 @@ a {
 .footer {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .work-list .description,
@@ -176,7 +176,7 @@ a {
 .portfolio-section .description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
@@ -188,12 +188,15 @@ a {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .footer-main .logo,
 .footer .addres {
   color: var(--main-color);
+}
+.footer {
+  font-style: normal;
 }
 .footer .mail,
 .footer .tel {

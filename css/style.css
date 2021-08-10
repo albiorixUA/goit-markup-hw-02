@@ -1,27 +1,21 @@
 :root {
-  --first-color: #ececec;
+  /* --first-color: #ececec; */
+  --main-color: #ffffff;
   --secondary-color: #212121;
   --third-color: #2196f3;
   --fourth-color: #757575;
-  --fifth-color: #ffffff;
-  --sixth-color: #000000;
-  --seventh-color: rgba(255, 255, 255, 0.6);
-  --eight-color: #f5f4fa;
+  --fifth-color: #000000;
+  --sixth-color: rgba(255, 255, 255, 0.6);
+  --seventh-color: #f5f4fa;
   --fill: #2f303a;
 }
-/* Головний колір сторінки */
+/* Головний фон сторінки */
 body {
-  background-color: var(--first-color);
+  background-color: var(--main-color);
 }
-.main-color {
-  background-color: var(--fifth-color);
-}
-.work-list,
-.wedo {
-  background-color: var(--fifth-color);
-}
-.team {
-  background-color: var(--eight-color);
+/* Фон секції "Наша команда" */
+.team-section {
+  background-color: var(--seventh-color);
 }
 /* Відключення символу списку  */
 ul {
@@ -32,10 +26,10 @@ ul {
   color: var(--third-color);
 }
 /* Секція хедер */
-.logo-header {
-  color: var(--sixth-color);
+.header-section .logo {
+  color: var(--fifth-color);
 }
-.logo-header .web {
+.header-section .web {
   color: var(--third-color);
 }
 .site-nav .link {
@@ -70,11 +64,12 @@ a {
   background-color: var(--fill);
 }
 .hero .title {
-  color: var(--fifth-color);
+  color: var(--main-color);
 }
+
 /* Кнопки*/
 .button {
-  color: var(--sixth-color);
+  color: var(--fifth-color);
   background-color: var(--fifth-color);
 }
 .button.studya {
@@ -82,7 +77,7 @@ a {
   color: var(--secondary-color);
 }
 .button.portfolio {
-  background-color: var(--eight-color);
+  background-color: var(--seventh-color);
   color: var(--secondary-color);
 }
 .button.portfolio:hover {
@@ -92,28 +87,27 @@ a {
 
 /* Секції "Особливості", "Чем мы занимаемся", "Наша команда"*/
 .work-list .title,
-.we-do,
-.team .title,
-.all-list .title {
+.activity-section,
+.team-section .title,
+.portfolio-section .title {
   color: var(--secondary-color);
 }
 .work-list .description,
-.team .description,
-.all-list .description {
+.team-section .description,
+.portfolio-section .description {
   color: var(--fourth-color);
 }
 /* Футер */
 .footer-main .web {
   color: var(--third-color);
 }
-
 .footer-main .logo,
 .footer .addres {
-  color: var(--fifth-color);
+  color: var(--main-color);
 }
 .footer .mail,
 .footer .tel {
-  color: var(--seventh-color);
+  color: var(--sixth-color);
 }
 .footer-main {
   background-color: var(--fill);
